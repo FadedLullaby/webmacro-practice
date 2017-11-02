@@ -1,0 +1,16 @@
+<html>
+<body>
+<div>Say: $(sayThis)</div>
+
+<br/>
+<table border="1">
+#foreach $row in $exam{
+    <tr>
+        #foreach $col in $row {
+            <td>$col</td>
+        }
+    </tr>
+}
+</table>
+</body>
+</html>
